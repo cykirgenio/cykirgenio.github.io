@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Frank+Ruhl+Libre:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: sans-serif;
+    
+}
+nav {
+    background-color: rgb(32, 224, 224);
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+}
+
+.logo {
+    
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color:rgba(0, 0, 0,);
+    margin-top: -4px;
+    
+    
+    
+    
+}
+
+h4{
+
+    
+}
+
+
+nav ul{
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+    
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font: 0.8em;
+    color: black;
+    transition: ;
+    -webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+
+}
+ul li a:hover {
+    color: rgb(245, 245, 220);
+}
+
+
+
+
+img{
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+h3 {
+    font-family: roboto;
+    
+
+}
+.line {
+    background-color: black;
+    height: 2px;
+    width: 135px;
+    
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    padding-right: 30px;
+} 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+}
+
+p{
+    padding-top: 15px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.5em;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    text-align: center;
+    
+
+}
+
+.gambar {
+    margin-bottom: 10px ;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+
+article {
+    width: 100%;
+}
+
+.biodata {
+    
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.textt {
+    text-align: left;
+}
+
+.value {
+    text-align: left;
+    padding-left: 3px;
+}
+
+
+
+
+
+footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(32, 224, 224);
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+span {
+    letter-spacing:2px;
+    color: black;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
